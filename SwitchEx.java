@@ -2,7 +2,7 @@ public class SwitchEx {
     public static void main(String[] args){
         String a = "banana";
 
-        switch("banananana"){
+        switch("bananaaa"){
             case "apple":
                 System.out.println("apple");
                 break;
@@ -11,10 +11,10 @@ public class SwitchEx {
                 System.out.println("mango");
                 break;
             case "banana": 
-                System.out.println("banana");
+                System.out.println("pista");
                 break;
             default:
-            System.out.println("it's not  a fruiet");
+            System.out.println("it's " + a);
 
         }
     }
