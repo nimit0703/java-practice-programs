@@ -1,2 +1,5 @@
 intro to recursion(basic level):
 https://www.youtube.com/watch?v=5Boqfjissv0&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&index=17&t=51s
+
+imptant basic problems(moderate level):
+https://www.youtube.com/watch?v=u-HgzgYe8KA&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&index=18&t=2707s
