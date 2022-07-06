@@ -1,0 +1,74 @@
+
+Why is the Java main method static?
+
+Ans) It is because the object is not required to call a static method. If it were a non-static method, JVM creates an object first then call main() method that will lead the problem of extra memory allocation.
+
+
+Can we execute a program without main() method?
+Ans) No, one of the ways was the static block, but it was possible till JDK 1.6. Since JDK 1.7, it is not possible to execute a Java class without the main method.
+
+Is Empty .java file name a valid source file name?
+Ans)Yes, Java allows to save our java file by .java only, we need to compile it by javac .java and run by java classname 
+
+What if I write static public void instead of public static void?
+ans)The program compiles and runs correctly because the order of specifiers doesn't matter in Java.
+
+What are the advantages of Packages in Java?
+ans)There are various advantages of defining packages in Java.
+
+Packages avoid the name clashes.
+The Package provides easier access control.
+We can also have the hidden classes that are not visible outside and used by the package.
+It is easier to locate the related classes.
+
+
+What is an object?
+ans)The Object is the real-time entity having some state and behavior. In Java, Object is an instance of the class having the instance variables as the state of the object and the methods as the behavior of the object. The object of a class can be created by using the new keyword.
+
+
+What is the constructor?
+ans)The constructor can be defined as the special type of method that is used to initialize the state of an object. It is invoked when the class is instantiated, and the memory is allocated for the object. Every time, an object is created using the new keyword, the default constructor of the class is called. The name of the constructor must be similar to the class name. The constructor must not have an explicit return type.
+
+Can we overload the constructors?
+ans)Yes, the constructors can be overloaded by changing the number of arguments accepted by the constructor or by changing the data type of the parameters. 
+
+Can you make a constructor final?
+ans)No, the constructor can't be final.
+
+Does constructor return any value?
+Ans) yes, The constructor implicitly returns the current instance of the class (You can't use an explicit return type with the constructor).
+
+What is the static variable?
+ans)The static variable is used to refer to the common property of all objects (that is not unique for each object), e.g., The company name of employees, college name of students, etc. Static variable gets memory only once in the class area at the time of class loading. Using a static variable makes your program more memory efficient (it saves memory). Static variable belongs to the class rather than the object.
+
+What are the restrictions that are applied to the Java static methods?
+ans)Two main restrictions are applied to the static methods.
+
+*The static method can not use non-static data member or call the non-static method directly.
+*this and super cannot be used in static context as they are non-static.
+
+
+Can we override the static methods?
+ans)No, we can't override static methods.
+
+
+Can we make constructors static?
+ans)As we know that the static context (method, block, or variable) belongs to the class, not the object. Since Constructors are invoked only when the object is created, there is no sense to make the constructors static. However, if you try to do so, the compiler will show the compiler error.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
